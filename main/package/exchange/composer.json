@@ -1,0 +1,26 @@
+{
+    "name": "package/exchange",
+    "description": "",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Packages\\Exchange\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hoang.cnb"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packages\\Exchange\\Providers\\ExchangeServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
