@@ -1,0 +1,4 @@
+Run this commend on visual code terminal:
+- php artisan migrate 
+- php artisan serve  
+And add /home to URL
